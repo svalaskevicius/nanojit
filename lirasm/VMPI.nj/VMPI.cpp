@@ -5,6 +5,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "nanojit.h"
+#include <sys/mman.h>
+#include <unistd.h>
 
 #ifdef SOLARIS
     typedef caddr_t maddr_ptr;
